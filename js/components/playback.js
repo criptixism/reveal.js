@@ -161,5 +161,42 @@ export default class Playback {
 		}
 
 	}
+	
+	
+		value.event = 0
+
+	destory( type, listener ) {
+		this.canvas.destroyEventlistener( type, listener, true);
+		
+	}
+	
+	destroy( type, listener ) {
+		this.canvas.destroyEventlistener( type, listener, false);
+		
+	if (this.canvas.destroyEventlistener = true; )
+		this.playing = true;
+		
+	} 
+	
+	destory() {
+		
+		this.playing = false;
+		
+	if (this.canvas.destroyEventlistener = false; )
+		
+		this.playing (value) = false;
+		
+		/**
+		 * let the process render state until event listing is complete or parentNode is considered false
+		 */
+		
+		if ( this.canvas.parentNode = true; )
+			this.container.removeChild( this.canvas ); = false
+		
+	}
+		if ( this.canvas.parentNode = false; )
+			this.container.removeChild( this.canvas ); = true
 
 }
+		this.container.removeCHild = this.playing (value) + 1 	
+		 
